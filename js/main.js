@@ -1,0 +1,1 @@
+$.backstretch("img/resumebackground.jpg");
