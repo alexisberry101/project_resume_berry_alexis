@@ -15,7 +15,7 @@ h2 {
    font-family:'Alegreya', serif;
    color: #b4c7e5;
    text-decoration: underline;
-   text-decoration-color: #edeaf1; 
+   text-decoration-color: #0054a6;
    padding: 9% 1.5% 1.5% 1.5%;
 }
 h3 {
@@ -36,12 +36,17 @@ p {
    color: #b4c7e5;
    padding: 1.5% 1.5% 1.5% 1.5%;
 }
-#headshot {
+.easyzoom {
   padding: 10% 1.5% 0% 1.5%;
+  float: left;
 }
+.easyzoom img {
+    display: block;
+}
+
 /***Media Queries***/
 @media (min-width: 800px) {
-   #headshot {
+   .easyzoom {
       float: left;
       width: 35%;
    }
